@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\paraq\\Desktop\\package\\package.csproj": {}
+    "C:\\Users\\paraq\\Downloads\\Practica04\\package.csproj": {}
   },
   "projects": {
-    "C:\\Users\\paraq\\Desktop\\package\\package.csproj": {
+    "C:\\Users\\paraq\\Downloads\\Practica04\\package.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\paraq\\Desktop\\package\\package.csproj",
+        "projectUniqueName": "C:\\Users\\paraq\\Downloads\\Practica04\\package.csproj",
         "projectName": "package",
-        "projectPath": "C:\\Users\\paraq\\Desktop\\package\\package.csproj",
+        "projectPath": "C:\\Users\\paraq\\Downloads\\Practica04\\package.csproj",
         "packagesPath": "C:\\Users\\paraq\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\paraq\\Desktop\\package\\obj\\",
+        "outputPath": "C:\\Users\\paraq\\Downloads\\Practica04\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"

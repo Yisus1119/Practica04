@@ -48,34 +48,24 @@ Console.WriteLine("Los numeros ingresado de forma contraria son:"+array1[4]+", "
 */
 
 //ejercicio 3
-/*
- #region ejercicio3
-  int[] dias = new int[4];
-  dias [1] =31;
-  dias [2]=30;
-  dias [3]=28;
+#region ejercicio 3
+int[] CantidadDias  = {31,30,28};
+int[] NumeroMes     = {0,1,2,3,4,5,6,7,8,9,10,11,12};
 
-  int[] meses = new int[13];
-  meses[1]=dias [1];
-  meses[2]=dias [3];
-  meses[3]=dias [1];
-  meses[4]=dias [2];
-  meses[5]=dias [1];
-  meses[6]=dias [2];
-  meses[7]=dias [1];
-  meses[8]=dias [1];
-  meses[9]=dias [2];
-  meses[10]=dias [1];
-  meses[11]=dias [2];
- meses[12]=dias [1];
+//Clasificación de los meses según su cantidad de días.
+NumeroMes[1] =  CantidadDias[0];     NumeroMes[4] =  CantidadDias[1];   NumeroMes[2] = CantidadDias[2];
+NumeroMes[3] =  CantidadDias[0];     NumeroMes[6] =  CantidadDias[1];
+NumeroMes[5] =  CantidadDias[0];     NumeroMes[9] =  CantidadDias[1];
+NumeroMes[7] =  CantidadDias[0];     NumeroMes[11] = CantidadDias[1];
+NumeroMes[8] =  CantidadDias[0];     
+NumeroMes[10] = CantidadDias[0];
+NumeroMes[12] = CantidadDias[0];
 
-  int mes=0;
-
-  Console.WriteLine("Inserte un numero: ");
-  mes = Convert.ToInt32(Console.ReadLine());
- Console.WriteLine("el numero {0} tiene {1} dias ",mes,meses[mes]);
- #endregion
-*/
+int sc = 0;
+Console.WriteLine("Ingrese el numero relacionado con su mes (1-12): ");
+sc = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("El numero relacionado al mes {0} tiene {1} dias",sc,NumeroMes[sc]);
+#endregion
 
 //ejercicio 4
 /*
@@ -116,6 +106,8 @@ Console.WriteLine("Los nombres ingresados fueron: "+ acumulador);
 
 
 //ejercicio 7 
+/*
+#region ejercicio 7
 string palabra = "";
 string extraer = "";
 
@@ -126,8 +118,11 @@ for(int e=0; e <= palabra.Length - 1; e++){
 
 extraer = palabra.Substring(e, 1);
 Console.Write(" "+ " "+extraer);
-
 }
+#endregion
+*/
+
+//ejercicio 8
 
 
         }
