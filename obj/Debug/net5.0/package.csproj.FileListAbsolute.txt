@@ -1,0 +1,16 @@
+C:\Users\paraq\Desktop\package\bin\Debug\net5.0\package.exe
+C:\Users\paraq\Desktop\package\bin\Debug\net5.0\package.deps.json
+C:\Users\paraq\Desktop\package\bin\Debug\net5.0\package.runtimeconfig.json
+C:\Users\paraq\Desktop\package\bin\Debug\net5.0\package.runtimeconfig.dev.json
+C:\Users\paraq\Desktop\package\bin\Debug\net5.0\package.dll
+C:\Users\paraq\Desktop\package\bin\Debug\net5.0\ref\package.dll
+C:\Users\paraq\Desktop\package\bin\Debug\net5.0\package.pdb
+C:\Users\paraq\Desktop\package\obj\Debug\net5.0\package.csprojAssemblyReference.cache
+C:\Users\paraq\Desktop\package\obj\Debug\net5.0\package.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\paraq\Desktop\package\obj\Debug\net5.0\package.AssemblyInfoInputs.cache
+C:\Users\paraq\Desktop\package\obj\Debug\net5.0\package.AssemblyInfo.cs
+C:\Users\paraq\Desktop\package\obj\Debug\net5.0\package.csproj.CoreCompileInputs.cache
+C:\Users\paraq\Desktop\package\obj\Debug\net5.0\package.dll
+C:\Users\paraq\Desktop\package\obj\Debug\net5.0\ref\package.dll
+C:\Users\paraq\Desktop\package\obj\Debug\net5.0\package.pdb
+C:\Users\paraq\Desktop\package\obj\Debug\net5.0\package.genruntimeconfig.cache
