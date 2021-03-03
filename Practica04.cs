@@ -48,6 +48,7 @@ Console.WriteLine("Los numeros ingresado de forma contraria son:"+array1[4]+", "
 */
 
 //ejercicio 3
+/*
 #region ejercicio 3
 int[] CantidadDias  = {31,30,28};
 int[] NumeroMes     = {0,1,2,3,4,5,6,7,8,9,10,11,12};
@@ -66,7 +67,7 @@ Console.WriteLine("Ingrese el numero relacionado con su mes (1-12): ");
 sc = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("El numero relacionado al mes {0} tiene {1} dias",sc,NumeroMes[sc]);
 #endregion
-
+*/
 //ejercicio 4
 /*
 #region ejercicio4
@@ -123,6 +124,37 @@ Console.Write(" "+ " "+extraer);
 */
 
 //ejercicio 8
+/*
+#region ejercicio 8
+float[]altura = {5.5F,5.7F,5.1F,6.0F,6.2F};
+
+float AlturaPromedio = (altura[0]+altura[1]+altura[2]+altura[3]+altura[4])/5;
+
+Console.WriteLine("El promedio de estatura son: "+AlturaPromedio);
+Console.WriteLine("Las alturas que estan por encima del promedio son: ");
+for(int m=0; m < altura.Length; m++){
+
+if(altura[m]> AlturaPromedio){
+Console.WriteLine(altura[m]);
+    }
+}
+
+Console.WriteLine("Las alturas que estan por debajo del promedio son");
+for(int n=0; n < altura.Length; n++){
+if(altura[n]< AlturaPromedio ){
+Console.WriteLine(altura[n]);
+    }
+}
+#endregion
+*/
+
+//ejercicio 9
+ClaseTablaMultiplicar cmp = new ClaseTablaMultiplicar();
+
+cmp.TablaMultiplicar();
+
+
+
 
 
         }
