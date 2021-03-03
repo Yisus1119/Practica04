@@ -149,11 +149,11 @@ Console.WriteLine(altura[n]);
 */
 
 //ejercicio 9
-ClaseTablaMultiplicar cmp = new ClaseTablaMultiplicar();
+ClaseObjeto co = new ClaseObjeto();
 
-cmp.TablaMultiplicar();
+co.TablaMultiplicar();
 
-
+//ejercicio 10
 
 
 

@@ -2,7 +2,7 @@ using System;
 
 namespace package
 {
-    class ClaseTablaMultiplicar
+    class ClaseObjeto
     {
 public void TablaMultiplicar()
 {
