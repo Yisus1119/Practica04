@@ -12,48 +12,46 @@ namespace package
             //instancia entre la clase Practica04 y la clase ClaseObjetos.
             ClaseObjeto co = new ClaseObjeto();
 
+
             //ejercicio 1
-            #region ejercicio1
+            #region ejercicio 1
             Console.WriteLine("| EJERCICIO 1 |");
             int[] numeros = new int[4];
             int sm;
 
             for (int i = 0; i < numeros.Length; i++)
             {
-                Console.WriteLine("Ingrese 4 numeros por teclado: ");
+                Console.WriteLine("Ingrese 4 números por teclado: ");
                 sm = int.Parse(Console.ReadLine());
                 numeros[i] = sm;
             }
             int sumatoria = numeros[0] + numeros[1] + numeros[2] + numeros[3];
             int aritmetica = sumatoria / 4;
 
-            Console.WriteLine("La media aritmetica es " + aritmetica + " y los numeros ingresados son " + numeros[0] + " " + numeros[1] + " " + numeros[2] + " " + numeros[3]);
+            Console.WriteLine("La media aritmetica es " + aritmetica + " y los números ingresados son " + numeros[0] + " " + numeros[1] + " " + numeros[2] + " " + numeros[3]);
 
 
             #endregion
 
-
-            //ejercicio 2
-            Console.WriteLine("| EJERCICIO 2 |");
+            //ejercicio 2 
             #region ejercicio 2
-
+            Console.WriteLine("| EJERCICIO 2 |");
             float[] array1 = new float[5];
             float sm2;
 
             for (int j = 0; j < array1.Length; j++)
             {
-                Console.WriteLine("Ingrese 5 numeros reales: ");
+                Console.WriteLine("Ingrese 5 números reales: ");
                 sm2 = float.Parse(Console.ReadLine());
                 array1[j] = sm2;
             }
-            Console.WriteLine("Los numeros ingresado de forma contraria son: " + array1[4] + ", " + array1[3] + ", " + array1[2] + ", " + array1[1] + ", " + array1[0]);
+            Console.WriteLine("Los números ingresado de forma contraria son: " + array1[4] + ", " + array1[3] + ", " + array1[2] + ", " + array1[1] + ", " + array1[0]);
 
             #endregion
 
-
-            //ejercicio 3
-            Console.WriteLine("| EJERCICIO 3 |");
+            //ejercicio 3       
             #region ejercicio 3
+            Console.WriteLine("| EJERCICIO 3 |");
             int[] CantidadDias = { 31, 30, 28 };
             int[] NumeroMes = { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 };
 
@@ -67,14 +65,14 @@ namespace package
             NumeroMes[12] = CantidadDias[0];
 
             int sc = 0;
-            Console.WriteLine("Ingrese el numero relacionado con su mes (1-12): ");
+            Console.WriteLine("Ingrese el número relacionado con su mes (1-12): ");
             sc = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("El numero relacionado al mes {0} tiene {1} dias", sc, NumeroMes[sc]);
+            Console.WriteLine("El número relacionado al mes {0} tiene {1} dias", sc, NumeroMes[sc]);
             #endregion
 
-            //ejercicio 4
+            //ejercicio 4          
+            #region ejercicio 4
             Console.WriteLine("| EJERCICIO 4 |");
-            #region ejercicio4
             int[] array2 = new int[10];
             int nm;
 
@@ -84,17 +82,15 @@ namespace package
                 nm = int.Parse(Console.ReadLine());
                 array2[i] = nm;
             }
-            Console.WriteLine("El numero Mayor es: " + array2.Max());
+            Console.WriteLine("El número Mayor es: " + array2.Max());
             #endregion
 
-            //ejercicio 5
-            Console.WriteLine("| EJERCICIO 5 |");
+            //ejercicio 5    
             #region ejercicio 5
+            Console.WriteLine("| EJERCICIO 5 |");
             string[] nombres = new string[100];
             string nm2;
             string acumulador = null;
-
-
             do
             {
                 Console.WriteLine("Ingrese un nombre: ");
@@ -108,8 +104,9 @@ namespace package
             }
             #endregion
 
-
-            //ejercicio 6
+            //ejercicio 6    
+            //profesor la verdad pido disculpas de que no pude realizar el programa según el mandato, traté pero las ocupaciones y el tiempo me impidieron poder usar la lógica requerida.
+            #region ejercicio 6
             Console.WriteLine("| EJERCICIO 6 |");
             bool salir = false;
             int seleccion;
@@ -122,10 +119,10 @@ namespace package
             while (!salir)
             {
                 Console.WriteLine("------------------------------------");
-                Console.WriteLine("1. añadir datos de un nuevo fichero");
-                Console.WriteLine("2. ver todas las fichas");
-                Console.WriteLine("3. buscar ficha: ");
-                Console.WriteLine("4. Salir");
+                Console.WriteLine("1. Añadir datos de un nuevo fichero.");
+                Console.WriteLine("2. Ver todas las fichas.");
+                Console.WriteLine("3. Buscar fichas.");
+                Console.WriteLine("4. Salir.");
                 Console.WriteLine("------------------------------------");
 
                 seleccion = Convert.ToInt32(Console.ReadLine());
@@ -143,14 +140,14 @@ namespace package
 
                         for (int bv = 0; bv < altura.Length; bv++)
                         {
-                            Console.WriteLine("Ingrese la anchura en pixeles de la imagen: ");
+                            Console.WriteLine("Ingrese la anchura en píxeles de la imagen: ");
                             int aaf2 = Convert.ToInt32(Console.ReadLine());
                             anchura[bv] = aaf2;
                         }
 
                         for (int bc3 = 0; bc3 < anchura.Length; bc3++)
                         {
-                            Console.WriteLine("Ingrese la altura en pixeles de la imagen: ");
+                            Console.WriteLine("Ingrese la altura en píxeles de la imagen: ");
                             int aaf3 = Convert.ToInt32(Console.ReadLine());
                             altura[bc3] = aaf3;
                         }
@@ -193,7 +190,7 @@ namespace package
                             Console.WriteLine(" - Nombre del fichero: " + ficheros[0]);
                             Console.WriteLine(" - Anchura del fichero: " + anchura[0]);
                             Console.WriteLine(" - Altura del fichero:  " + altura[0]);
-                            Console.WriteLine(" - Tamaño en KB de los ficheros: " + tamaño[0]);
+                            Console.WriteLine(" - Tamaño en KB de los ficheros: " + tamaño[0]+" KB");
                         }
                         else
                         {
@@ -206,14 +203,16 @@ namespace package
                         break;
 
                     default:
-                        Console.WriteLine("Debe elegir un numero entre (1-4).");
+                        Console.WriteLine("Debe elegir un número entre (1-4).");
                         break;
 
                 }
             }
+            #endregion
+
             //ejercicio 7 
+            #region  ejercicio 7
             Console.WriteLine("| EJERCICIO 7 |");
-            #region ejercicio 7
             string palabra = "";
             string extraer = "";
 
@@ -225,16 +224,20 @@ namespace package
 
                 extraer = palabra.Substring(e, 1);
                 Console.Write(" " + " " + extraer);
-                Console.WriteLine(" ");
+
             }
+            Console.WriteLine(" ");
             #endregion
 
-
             //ejercicio 8
-            Console.WriteLine("| EJERCICIO 8 |");
             #region ejercicio 8
+            Console.WriteLine("| EJERCICIO 8 |");
             float[] estatura = { 5.5F, 5.7F, 5.1F, 6.0F, 6.2F };
-
+            Console.WriteLine("Las estaturas  son: "+estatura[0]);
+            Console.WriteLine("Las estaturas son: "+estatura[1]);
+            Console.WriteLine("Las estaturas son: "+estatura[2]);
+            Console.WriteLine("Las estaturas son: "+estatura[3]);
+            Console.WriteLine("Las estaturas son: "+estatura[4]);
             float AlturaPromedio = (estatura[0] + estatura[1] + estatura[2] + estatura[3] + estatura[4]) / 5;
 
             Console.WriteLine("El promedio de estatura son: " + AlturaPromedio);
@@ -248,7 +251,7 @@ namespace package
                 }
             }
 
-            Console.WriteLine("Las alturas que estan por debajo del promedio son");
+            Console.WriteLine("Las alturas que estan por debajo del promedio son: ");
             for (int n = 0; n < estatura.Length; n++)
             {
                 if (estatura[n] < AlturaPromedio)
@@ -258,14 +261,17 @@ namespace package
             }
             #endregion
 
-
             //ejercicio 9
+            #region ejercicio 9
             Console.WriteLine("| EJERCICIO 9 |");
             co.TablaMultiplicar();
+            #endregion
 
             //ejercicio 10
+            #region  ejercicio 10
             Console.WriteLine("| EJERCICIO 10 |");
             co.DatosPersona();
+            #endregion
 
 
         }
